@@ -18,5 +18,5 @@ def calculate_pay(hours_worked, pay_per_hour):
         pay = hours_worked * pay_per_hour
     return pay
 
-# Worked 40 hours at $20 an hours,worked 50 hours at $20, worked 40 hours at $12 hour
-print(calculate_monthly_pay(40,50,40,0,20))
+
+print(calculate_monthly_pay(40,50,35,40,50))
