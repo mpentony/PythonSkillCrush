@@ -1,0 +1,1 @@
+skillz = "Howdy, I’m busy crushing skillz "
