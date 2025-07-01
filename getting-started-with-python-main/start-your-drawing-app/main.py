@@ -1,0 +1,23 @@
+import turtle
+t = turtle.Turtle()
+import turtle 
+t = turtle.Turtle()
+
+t.pencolor("red")
+t.forward(100)
+t.right(60)
+t.pencolor("purple")
+t.forward(100)
+t.right(60)
+t.pencolor("green")
+t.forward(100)
+t.right(60)
+t.pencolor("yellow")
+t.forward(100)
+t.right(60)
+t.pencolor("blue")
+t.forward(100)
+t.right(60)
+t.pencolor("orange")
+t.forward(100)
+t.right(60)
