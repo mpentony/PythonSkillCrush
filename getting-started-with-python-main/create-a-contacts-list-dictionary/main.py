@@ -8,5 +8,6 @@ for i in range(len(people)):
   person_title = title[i]
   key = person
   value = person_title
-  print(key + " is the " + value)
+  company_org[person] = person_title
   
+print(company_org)
