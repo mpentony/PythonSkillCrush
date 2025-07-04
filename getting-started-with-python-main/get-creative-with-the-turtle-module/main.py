@@ -1,6 +1,11 @@
 import turtle as turtle
 import random
 
+#setup screen
+screen = turtle.Screen()
+screen.title("Turtle Sandbox")
+screen.bgcolor("lightblue")
+
 print("Welcome to your drawing app! Select a shape you want to draw. After typing the number and hitting enter, the drawing app will draw the shape you selected.")
 
 turtle.penup()
@@ -27,18 +32,21 @@ turtle.pendown()
 
 def star():
   # Star
+  turtle.pencolor("blue")
   for i in range(5):
     turtle.forward(100)
     turtle.right(144)
 
 def square():
   # Square
+  turtle.pencolor("red")
   for i in range(4):
     turtle.forward(100)
     turtle.right(90)
 
 def hexagon():
   # Hexagon
+  turtle.pencolor("purple")
   for i in range(6):
     turtle.forward(100)
     turtle.right(60)
@@ -53,3 +61,5 @@ elif selection == "2":
 elif selection == "3":
   print("Excellent choice! Go to the result tab to see your creation.")
   hexagon()
+
+screen.mainloop()
