@@ -1,0 +1,37 @@
+Testing File
+
+
+#Write code to assign assistant to the class
+assistant=PersonalAssistant()
+
+
+#Write code to print the list of todos
+print(assistant.get_todos())
+
+#Write code to add to the list of todods
+1) Pick up toddler
+2) Feed toddler
+3) Give toddler a bath
+4) Change diaper
+
+
+#Write code to print the list of todos
+assistant.add_todo("Pick up toddler")
+assistant.add_todo("Feed toddler")
+assistant.add_todo("Give toddler a bath")
+assistant.add_todo("Change diaper")
+
+
+#Write code to delete Feed toddler
+assistant.remove_todo("Feed toddler")
+
+
+#Write code to get the department where Monique works in your contact dictionary
+print(assistant.get_contact("Monique"))
+
+
+
+
+
+#Write code to find the birthday of Chelsea
+print(assistant.get_birthday("Chelsea"))
